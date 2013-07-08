@@ -2,22 +2,24 @@
 
 Version: 3.2
 
+##### Now with indented SASS syntax!
+
 ## Contributors:
 
 Matt Banks ( [@mattbanks](http://twitter.com/mattbanks) / [kernelcreativemedia.com](http://www.kernelcreativemedia.com) / [mattbanks.me](http://www.mattbanks.me) )
 
 ## Summary
 
-WordPress Starter Theme for use as a starting template for building custom themes. Uses Compass/SCSS, HTML5 Boilerplate 4 with Modernizr and Normalize.css, and Grunt for all tasks. Tested with WordPress 3.5.1.
+WordPress Starter Theme for use as a starting template for building custom themes. Uses Compass/SASS, HTML5 Boilerplate 4 with Modernizr and Normalize.css, and Grunt for all tasks. Tested with WordPress 3.5.1.
 
 ## Usage
 
-The theme is setup to use [Grunt](http://gruntjs.com/) to compile Compass/SCSS, lint, concatenate and minify JavaScript (with source maps), optimize images, and [LiveReload](http://livereload.com/) the browser (with extension), with flexibility to add any additional tasks via the Gruntfile. Alternatively, you can use [CodeKit](http://incident57.com/codekit/) or whatever else you prefer to compile the SCSS and manage the JavaScript.
+The theme is setup to use [Grunt](http://gruntjs.com/) to compile Compass/SASS, lint, concatenate and minify JavaScript (with source maps), optimize images, and [LiveReload](http://livereload.com/) the browser (with extension), with flexibility to add any additional tasks via the Gruntfile. Alternatively, you can use [CodeKit](http://incident57.com/codekit/) or whatever else you prefer to compile the SASS and manage the JavaScript.
 
-Rename folder to your theme name, change the `assets/scss/style.scss` intro block to your theme information. Open the theme directory in terminal and run `npm install` to pull in all Grunt dependencies. Run `grunt` to execute tasks. Code as you will. If you have the LiveReload browser extension, it will reload after any SCSS or JS changes. To optimize images, run `grunt imagemin`.
+Rename folder to your theme name, change the `assets/sass/style.sass` intro block to your theme information. Open the theme directory in terminal and run `npm install` to pull in all Grunt dependencies. Run `grunt` to execute tasks. Code as you will. If you have the LiveReload browser extension, it will reload after any SASS or JS changes. To optimize images, run `grunt imagemin`.
 
-- Compile `assets/scss/style.scss` to `style.css` (all paths defined in config.rb for Compass)
-- Compile `assets/scss/editor-style.scss` to `editor-style.css`
+- Compile `assets/sass/style.sass` to `style.css` (all paths defined in config.rb for Compass)
+- Compile `assets/sass/editor-style.sass` to `editor-style.css`
 - Concatenate and minify all plugins in `assets/js/vender` and `assets/js/source/plugins.js` to `assets/js/plugins.min.js`
 - Minify `assets/js/source/main.js` to `assets/js/main.min.js`
 - ??
@@ -34,7 +36,7 @@ The theme includes deployments via [grunt-rsync](https://github.com/jedrichards/
 3. Flexible grid from [Chris Coyier](https://twitter.com/chriscoyier)
 4. Media Queries for mobile and tablets ready to populate
 5. Removed comments from pages
-6. Compass & SCSS with plenty of mixins ready to go
+6. Compass & SASS with plenty of mixins ready to go
 7. Much much more
 
 ### Suggested Plugins
