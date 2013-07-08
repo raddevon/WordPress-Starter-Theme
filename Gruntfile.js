@@ -102,7 +102,7 @@ module.exports = function(grunt) {
                 host: "user@host.com",
                 recursive: true,
                 syncDest: true,
-                exclude: '<%= rsync.staging.exclude %>'
+                exclude: '<%= deploy.staging.exclude %>'
             }
         }
 
